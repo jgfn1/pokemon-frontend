@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npm run serve",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "heroku-postbuild": "npm run production"
   },
   "dependencies": {
     "axios": "^0.21.1",
