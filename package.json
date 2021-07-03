@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm run serve",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "heroku-postbuild": "vue-cli-service build && npm run production"
+    "serve": "npm run serve",
+    "build": "npm run build",
+    "heroku-postbuild": "npm run build && npm run production"
   },
   "dependencies": {
     "axios": "^0.21.1",
